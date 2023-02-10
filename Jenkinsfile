@@ -3,7 +3,7 @@ pipeline {
        stages {
          stage('build'){
              steps{
-                sh 'echo "build SCM trigger" '
+                sh 'echo "build SCM trigger-1" '
             }
         }   
     } 
